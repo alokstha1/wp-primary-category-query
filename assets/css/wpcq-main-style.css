@@ -1,0 +1,94 @@
+#primary .entry-content{ 
+	width: 100% !important; 
+}
+
+.entry-content div.post_listings {
+    border: 1px solid #e2e2e2;
+    border-bottom: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+form#post-filter-form {
+    background: #fff;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+form#post-filter-form:before, form#post-filter-form:after, .search_posts:before, .search_sort_by:before {
+    content: " ";
+    display: table;
+}
+
+form#post-filter-form:after {
+    clear: both;
+}
+
+form#post-filter-form select {
+	width: 100%;
+}
+
+
+.search_keywords, .search_category {
+    width: 50%;
+    float: left;
+    padding-right: 0;
+    padding: 20px;
+}
+
+input#search_keywords {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.search_sort_by {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border-top: 1px solid #e2e2e2;
+    zoom: 1;
+}
+
+.search_sort_by label.sort-label, .search_order_by label.order-label {
+    padding: 20px;
+}
+
+div.sort-items {
+    margin: 0;
+    float: left;
+    width: 33%;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+div.order-items {
+    margin: 0;
+    float: left;
+    width: 50%;
+    text-align: center;
+    background: #fff;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.wpcq-submit {
+    padding: 10px;
+    float: right;
+}
+
+ul.post_listings li.post-item-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+    padding: 1em 1em 1em 2em;
+    list-style: none;
+    border: 0;
+    line-height: 1.5em;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+ul.post_listings li.post-item-list a {
+    text-decoration: none;
+}
