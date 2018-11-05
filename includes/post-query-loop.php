@@ -10,5 +10,4 @@
 		</div><!-- .post-thumbnail -->
 	<?php endif; ?>
 	<?php echo get_the_excerpt(); ?>
-
 </li>
