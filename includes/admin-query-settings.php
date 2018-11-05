@@ -2,7 +2,6 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
 $wpcq_query_settings = get_option( 'wpcq_query_settings' );
 ?>
 
@@ -29,7 +28,7 @@ $wpcq_query_settings = get_option( 'wpcq_query_settings' );
 					<tr>
 						<th>
 							<label for="wpcq-post-count">
-								<?php _e( 'Number of Posts:', 'wpcq' ); ?>
+								<?php _e( 'Number of Posts', 'wpcq' ); ?>
 							</label>
 						</th>
 						<td>
@@ -47,7 +46,9 @@ $wpcq_query_settings = get_option( 'wpcq_query_settings' );
 				<?php submit_button( __( 'Save Changes', 'wpcq' ), 'primary', 'submit_wpcq_options', false ); ?>
 			</p>
 
-			<p><label for="detail_settings"><?php _e( 'This plugin allows you to query the posts or custom post types from front end. Use shortcodes <b>[wpcq]</b>, <b>[wpcq post_type="post-type-name" taxonomy="taxonomy-name"]</b>. By default the post type is <b>post</b> and taxonomy is <b>category</b>.', 'wpcq' ); ?></label></p>
+			<p>
+				<label for="detail_settings"><?php _e( 'This plugin allows you to query the posts or custom post types from front end. Use shortcodes <b>[wpcq]</b>, <b>[wpcq post_type="post-type-name" taxonomy="taxonomy-name"]</b>. By default the post type is <b>post</b> and taxonomy is <b>category</b>.', 'wpcq' ); ?></label>
+			</p>
 			
 		</form>
 
