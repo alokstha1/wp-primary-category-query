@@ -1,8 +1,7 @@
 <?php
 /**
  * Plugin Name: Wp Primary Category Query
- * Description: This plugin allows you to query the posts or custom post types from front end. Use shortcodes [wpcq], 
- * [wpcq post_type="post-type-name"], [wpcq post_type="post-type-name" taxonomy="taxonomy-name"] into the pages. 
+ * Description: This plugin allows you to query the posts or custom post types from front end. Use shortcodes [wpcq], [wpcq post_type="post-type-name" taxonomy="taxonomy-name"] into the pages. 
  * Author: Alok Shrestha
  * Version: 1.0.0
  * Author Email: alokstha1@gmail.com
