@@ -86,7 +86,6 @@ class Wp_Primary_Category_Query {
 	*/
 	public function wpcq_register_settings() {
 	    register_setting( 'wpcq_query_settings', 'wpcq_query_settings', array( $this, 'wpcq_sanitize_settings' ) );
-
 	}
 
 	/**
@@ -104,7 +103,6 @@ class Wp_Primary_Category_Query {
 		$input_options['post_count'] 	= ( isset( $_POST['wpcq_query_settings']['post_count'] ) && !empty( $_POST['wpcq_query_settings']['post_count'] ) ) ? (int)$_POST['wpcq_query_settings']['post_count'] : 10;
 
 		return $input_options;
-
 	}
 
 	/**
