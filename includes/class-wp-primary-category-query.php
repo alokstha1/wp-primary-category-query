@@ -116,8 +116,7 @@ class Wp_Primary_Category_Query {
 			), $atts );
 
 		$taxonomy 		= 'category';
-		$taxonomy_terms	= get_terms( 
-							array(
+		$taxonomy_terms	= get_terms( array(
 						    'taxonomy' 		=> 'category',
 						    'hide_empty' 	=> false,
 						) );
@@ -126,8 +125,7 @@ class Wp_Primary_Category_Query {
 		if ( 'post' != $value['post_type'] ) {
 			$taxonomy = $value['taxonomy'];
 
-			$taxonomy_terms	= get_terms( 
-								array(
+			$taxonomy_terms	= get_terms( array(
 							    'taxonomy' 		=> $taxonomy,
 							    'hide_empty' 	=> false,
 							) );
